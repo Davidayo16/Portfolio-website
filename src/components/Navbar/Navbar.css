@@ -1,5 +1,5 @@
 nav {
-  background-color: rgb(238, 238, 238);
+  background-color: var(--color-light);
   z-index: 999;
   position: fixed;
   top: 0;
@@ -9,7 +9,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  transition: 0.7s ease-in;
+  /* transition: 0.4s ease-in; */
   z-index: 999;
   position: fixed;
   top: 0;
@@ -23,7 +23,7 @@ nav {
 }
 .list li a {
   text-transform: uppercase;
-  color: rgb(53, 51, 51);
+  color: var(--color-dark);
 }
 .list li a.active {
   text-transform: uppercase;
@@ -44,6 +44,7 @@ nav {
 
 .nav-logo {
   margin-bottom: 0 !important;
+  color: var(--color-dark);
 }
 .nav-bar {
   display: flex;
@@ -81,7 +82,7 @@ nav {
     border-radius: 50%;
   }
   .btn.active .bar {
-    background-color: black;
+    background-color: var(--color-dark);
   }
   .btn.active .bar:nth-child(2) {
     opacity: 0;

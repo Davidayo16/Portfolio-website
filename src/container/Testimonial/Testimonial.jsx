@@ -51,7 +51,22 @@ const Testimonial = () => {
       setIndex(items.length - 1);
     }
   };
+  React.useEffect(() => {
+    const lastIndex = items.length - 1;
+    if (index < 0) {
+      setIndex(lastIndex);
+    }
+    if (index > lastIndex) {
+      setIndex(0);
+    }
+  }, [index, items]);
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex(index + 1);
+    }, 6000);
 
+    return () => clearInterval(interval);
+  });
   return (
     <>
       <section className="testimonial-wrapper py-3" id="testimonial">

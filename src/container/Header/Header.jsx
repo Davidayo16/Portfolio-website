@@ -61,9 +61,13 @@ const Header = () => {
       : "dark"
   );
 
-  const [active, setActive] = React.useState(true);
+  const [active, setActive] = React.useState(false);
   const ref = React.useRef();
-
+  React.useEffect(() => {
+    setTimeout(() => {
+      setActive(true);
+    }, 1000);
+  }, []);
   const handleTheme = () => {
     if (theme === "light") {
       setTheme("dark");
