@@ -1,0 +1,51 @@
+/*
+Theme Name: Jobica
+Theme URI: https://nootheme.com/
+Author: NooTheme
+Author URI: https://nootheme.com/NooTheme
+Description: Jobica is the functional Job Board WordPress Theme with gorgeous layout and exclusive job board system to connect candidates and employers fluidly.
+Version: 1.2.6
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, sticky-post, theme-options, translation-ready
+Text Domain: jobica
+*/
+.wp-caption {
+    margin-bottom: 1.75em;
+    max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+}
+
+.wp-caption .wp-caption-text {
+    color: #686868;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-style: italic;
+    line-height: 1.6153846154;
+    padding-top: 0.5384615385em;
+}
+.sticky {
+
+}
+.gallery-caption {
+    color: #686868;
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-style: italic;
+    line-height: 1.6153846154;
+    padding-top: 0.5384615385em;
+}
+.bypostauthor{
+
+}
+.alignright{
+}
+.alignleft{
+
+}
+.aligncenter{}
