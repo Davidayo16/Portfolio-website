@@ -32,7 +32,7 @@ const Work = () => {
       github: "",
       description: "Innovative job app revolutionizing the hiring landscape",
     },
-    {
+    /*  {
       // Fourth item
       id: 3,
       name: "Facebook clone(static)",
@@ -45,7 +45,7 @@ const Work = () => {
       github: "",
       description: `Clean and minimalistic single-page website featuring
                       smooth scrolling.`,
-    },
+    },*/
     {
       // Fourth item
       id: 4,
