@@ -26,6 +26,10 @@
   border-radius: 50%;
   /* background: rgba(194, 191, 191, 0.8); */
 }
+.skill-name {
+  color: var(--color-dark);
+  font-size: 10px;
+}
 .skills-img-cont:nth-child(1) {
   /* background: rgba(145, 210, 212, 0.8); */
 }

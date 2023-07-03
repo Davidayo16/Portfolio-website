@@ -25,10 +25,11 @@
   padding: 8px 20px;
   border: none;
   color: white;
+  border-radius: 10px;
   background-color: var(--color-primary);
 }
 .contact-btn:hover {
-  background-color: rgb(33, 103, 116);
+  scale: 1.03;
 }
 .contact-form input {
   background-color: var(--color-light);
@@ -59,5 +60,13 @@
   }
   .contact-us-cont {
     width: 100% !important;
+  }
+  .contact-btn {
+    padding: 8px 20px;
+    width: 100%;
+    border: none;
+    color: white;
+    /* border-radius: 10px; */
+    background-color: var(--color-primary);
   }
 }

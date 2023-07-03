@@ -2,6 +2,84 @@ import React from "react";
 import "./Skills.css";
 import { easeInOut, motion } from "framer-motion";
 const Skills = () => {
+  const skills = [
+    {
+      id: 1,
+      name: "HTML",
+      image: "/images/html.svg",
+    },
+    {
+      id: 2,
+      name: "CSS",
+      image: "/images/css.svg",
+    },
+    {
+      id: 3,
+      name: "JavaScript",
+      image: "/images/javascript.svg",
+    },
+    {
+      id: 4,
+      name: "Bootstrap",
+      image: "/images/bootstrap.svg",
+    },
+    {
+      id: 5,
+      name: "React Js",
+      image: "/images/react.svg",
+    },
+    {
+      id: 6,
+      name: "Python",
+      image: "/images/python.svg",
+    },
+    {
+      id: 7,
+      name: "Bootstrap",
+      image: "/images/bootstrap.svg",
+    },
+    {
+      id: 7,
+      name: "Redux",
+      image: "/images/redux.svg",
+    },
+    {
+      id: 8,
+      name: "Git",
+      image: "/images/git.svg",
+    },
+    {
+      id: 9,
+      name: "Tailwindcss",
+      image: "/images/tailwindcss.svg",
+    },
+    {
+      id: 10,
+      name: "SASS",
+      image: "/images/sass.svg",
+    },
+    {
+      id: 11,
+      name: "Express Js",
+      image: "/images/express.svg",
+    },
+    {
+      id: 12,
+      name: "Node Js",
+      image: "/images/node.svg",
+    },
+    {
+      id: 13,
+      name: "Next Js",
+      image: "/images/next.svg",
+    },
+    {
+      id: 14,
+      name: "React Native",
+      image: "/images/react.svg",
+    },
+  ];
+
   return (
     <>
       <div className="skils-wrapper py-3" id="skills">
@@ -18,128 +96,23 @@ const Skills = () => {
               <div className="col-lg-6 col-12">
                 <h2 className="bold mb-3 skill-text">Skills</h2>
                 <div className="d-flex g-3 flex-wrap y align-items-center">
-                  <div className="col-3  b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <div className="skill-over"></div>
-                      <img src="/images/html.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3  b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/css.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3  b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/bootstrap.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3 b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/javascript.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3 b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/react.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3  b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/python.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3  b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/git.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3  b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/redux.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3  b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img
-                        src="/images/tailwindcss.svg"
-                        className="img-fluid"
-                      />
-                    </motion.div>
-                  </div>
-                  <div className="col-3 b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/sass.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3 b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/express.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-                  <div className="col-3 b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/next.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
-
-                  <div className="col-3 b">
-                    <motion.div
-                      className="skills-img-cont"
-                      whileInView={{ opacity: [0, 1], scale: [0, 1] }}
-                      transition={{ duration: 0.9, ease: easeInOut }}
-                    >
-                      <img src="/images/node.svg" className="img-fluid" />
-                    </motion.div>
-                  </div>
+                  {skills?.map((skill) => {
+                    return (
+                      <div className="col-3  b ">
+                        <motion.div
+                          className="skills-img-cont d-flex align-items-center justify-content-center flex-column"
+                          whileInView={{ opacity: [0, 1], scale: [0, 1] }}
+                          transition={{ duration: 0.9, ease: easeInOut }}
+                        >
+                          <div className="skill-over"></div>
+                          <img src={skill.image} className="img-fluid" />
+                          <h5 className="bold mt-2 text-center skill-name">
+                            {skill.name}
+                          </h5>
+                        </motion.div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
               <motion.div
@@ -151,26 +124,24 @@ const Skills = () => {
                   <div className="col-12 col-md-6">
                     <h2 className="bold mb-4 experience-text">Experience</h2>
                     <div className="d-flex gap-3">
-                      <h5 className="dim">2022</h5>
+                      <h5 className="dim">2020-2021</h5>
                       <div>
-                        <h4 className="bold dim">Junior Frontend Developer</h4>
+                        <h4 className="bold dim">Software Developer</h4>
+                        <p className="dim">ALX-NG</p>
+                      </div>
+                    </div>
+                    <div className="d-flex gap-3">
+                      <h5 className="dim">2021-2022</h5>
+                      <div>
+                        <h4 className="bold dim">Frontend Developer</h4>
                         <p className="dim">ASUSU</p>
                       </div>
                     </div>
                     <div className="d-flex gap-3">
-                      <h5 className="dim"> 2020</h5>
+                      <h5 className="dim"> 2022-2023</h5>
                       <div>
-                        <h4 className="bold dim">
-                          Telecommunication Engineer•
-                        </h4>
+                        <h4 className="bold dim">Software Developer</h4>
                         <p className="dim">Ajaokuta Steel Company</p>
-                      </div>
-                    </div>
-                    <div className="d-flex gap-3">
-                      <h5 className="dim">2020</h5>
-                      <div>
-                        <h4 className="bold dim">Software engineer</h4>
-                        <p className="dim">2020-Till Date</p>
                       </div>
                     </div>
                   </div>

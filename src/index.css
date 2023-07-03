@@ -82,7 +82,7 @@ body {
   --color-background: rgb(216, 223, 224);
   --color-background2: rgb(238, 238, 238);
   --color-dark: #202528;
-  --color-white: #edeffd;
+  --color-white: #ebebeb;
   --box-shadow: 0 2rem 3rem var(--color-light);
   --color-light: rgb(243, 243, 243);
 }

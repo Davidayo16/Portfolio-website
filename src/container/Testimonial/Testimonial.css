@@ -42,8 +42,8 @@
   right: 0;
   top: 50%;
   color: white;
-  transform: translate(-50%, -50%);
-  background-color: rgb(160, 160, 160);
+  transform: translate(-0%, -50%);
+  background-color: rgb(56, 56, 56);
   padding: 10px;
   cursor: pointer;
   z-index: 1;
@@ -54,8 +54,8 @@
   top: 50%;
   color: white;
   cursor: pointer;
-  transform: translate(50%, -50%);
-  background-color: rgb(160, 160, 160);
+  transform: translate(0, -50%);
+  background-color: rgb(56, 56, 56);
   transition: 0.3s ease;
   padding: 10px;
   z-index: 1;
@@ -118,8 +118,8 @@
     right: 0;
     top: 90%;
     color: white;
-    transform: translate(-50%, -50%);
-    background-color: rgb(160, 160, 160);
+    transform: translate(0, -50%);
+    background-color: rgb(56, 56, 56);
     padding: 10px;
     cursor: pointer;
     z-index: 1;
@@ -130,8 +130,8 @@
     top: 90%;
     color: white;
     cursor: pointer;
-    transform: translate(50%, -50%);
-    background-color: rgb(160, 160, 160);
+    transform: translate(0, -50%);
+    background-color: rgb(56, 56, 56);
     transition: 0.3s ease;
     padding: 10px;
     z-index: 1;
