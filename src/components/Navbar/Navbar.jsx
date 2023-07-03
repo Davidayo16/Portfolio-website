@@ -70,15 +70,17 @@ const Navbar = ({ activeSection, sections }) => {
             <div class="list-container mb-0" ref={listContainer}>
               <ul class="list d-flex px-0" ref={list}>
                 {sections.map((section) => (
-                  <li key={section.id}>
-                    <a
-                      href={`#${section.id}`}
-                      className={activeSection === section.id ? "active" : ""}
-                      onClick={(e) => scroll(e)}
-                    >
-                      {section.label}
-                    </a>
-                  </li>
+                  <div>
+                    <li key={section.id}>
+                      <a
+                        href={`#${section.id}`}
+                        className={activeSection === section.id ? "active" : ""}
+                        onClick={(e) => scroll(e)}
+                      >
+                        {section.label}
+                      </a>
+                    </li>
+                  </div>
                 ))}
               </ul>
             </div>

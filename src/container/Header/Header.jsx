@@ -172,6 +172,8 @@ const Header = () => {
                   <p className="dim mb-0 bold">Software Engineer</p>
                 </div>
               </div>
+              {/* <a className="cv">download cv</a> */}
+              <SocialMedia />
             </motion.div>
             <motion.div
               whileInView={{ opacity: [0, 1] }}
@@ -201,13 +203,13 @@ const Header = () => {
               className="header-circle"
             >
               {[
+                "/images/tailwindcss.svg",
                 "/images/react.svg",
-                "/images/node.svg",
-                "/images/redux.svg",
+                "/images/python.svg",
               ].map((image) => {
                 return (
                   <div>
-                    <img src={image} className="img-fluid " />;
+                    <img src={image} className="img-fluid " />
                   </div>
                 );
               })}

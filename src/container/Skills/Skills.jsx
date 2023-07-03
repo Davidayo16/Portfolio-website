@@ -29,14 +29,19 @@ const Skills = () => {
       image: "/images/react.svg",
     },
     {
+      id: 5,
+      name: "Angular",
+      image: "/images/angular.svg",
+    },
+    {
       id: 6,
       name: "Python",
       image: "/images/python.svg",
     },
     {
       id: 7,
-      name: "Bootstrap",
-      image: "/images/bootstrap.svg",
+      name: "Typescript",
+      image: "/images/typescript.svg",
     },
     {
       id: 7,
@@ -77,6 +82,21 @@ const Skills = () => {
       id: 14,
       name: "React Native",
       image: "/images/react.svg",
+    },
+    {
+      id: 14,
+      name: "Dart",
+      image: "/images/dart.svg",
+    },
+    {
+      id: 14,
+      name: "Flutter",
+      image: "/images/flutter.svg",
+    },
+    {
+      id: 14,
+      name: "AWS",
+      image: "/images/aws.svg",
     },
   ];
 
@@ -124,17 +144,24 @@ const Skills = () => {
                   <div className="col-12 col-md-6">
                     <h2 className="bold mb-4 experience-text">Experience</h2>
                     <div className="d-flex gap-3">
-                      <h5 className="dim">2020-2021</h5>
+                      <h5 className="dim">2019-2020</h5>
                       <div>
                         <h4 className="bold dim">Software Developer</h4>
                         <p className="dim">ALX-NG</p>
                       </div>
                     </div>
                     <div className="d-flex gap-3">
-                      <h5 className="dim">2021-2022</h5>
+                      <h5 className="dim">2020-20221</h5>
                       <div>
                         <h4 className="bold dim">Frontend Developer</h4>
                         <p className="dim">ASUSU</p>
+                      </div>
+                    </div>
+                    <div className="d-flex gap-3">
+                      <h5 className="dim"> 2021-2022</h5>
+                      <div>
+                        <h4 className="bold dim">Fullstack Developer</h4>
+                        <p className="dim">Cashbox Finance</p>
                       </div>
                     </div>
                     <div className="d-flex gap-3">
@@ -150,7 +177,7 @@ const Skills = () => {
                     <div className="d-flex w-100">
                       <div>
                         <h6 className="bold dim">
-                          Electrical/Electronics Engineering
+                          B.Eng in Electrical/Computer Engineering
                         </h6>
                         <p className="bold dim">
                           Federal University of Technology, Minna, Nigeria

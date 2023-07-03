@@ -11,8 +11,8 @@ function App() {
   const sections = [
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
-    { id: "work", label: "Work" },
     { id: "skills", label: "Skills" },
+    { id: "work", label: "Work" },
     { id: "testimonial", label: "Testimonial" },
     { id: "contact", label: "Contact" },
   ];

@@ -15,16 +15,29 @@ import {
 const SocialMedia = () => {
   return (
     <div className="app-social">
-      <div className="fa-cont">
-        <FaLinkedinIn className="fa" />
-      </div>
-      <div className="fa-cont">
+      <a
+        href="https://www.twitter.com/dayvidayo?t=Ovwfw-vH1LuZe_1tUt03Fg&s=09"
+        target="_blank"
+        className="fa-cont"
+      >
         <FaTwitter className="fa" />
-      </div>
+      </a>
 
-      <div className="fa-cont">
-        <FaGithub className="fa" />
-      </div>
+      <a
+        className="fa-cont cont-2"
+        href="https://www.linkedin.com/in/david-odimayo-70727427b"
+        target="_blank"
+      >
+        <FaLinkedinIn className="fa" />
+      </a>
+
+      <a
+        className="fa-cont"
+        href="https://www.facebook.com/profile.php?id=100083591194469"
+        target="_blank"
+      >
+        <FaFacebook className="fa" />
+      </a>
     </div>
   );
 };

@@ -187,47 +187,55 @@ gap-55 {
 }
 
 .app-social {
-  background-color: rgb(243, 243, 243);
+  /* background-color: rgb(243, 243, 243); */
   padding: 1rem 2rem;
   border: white;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); */
   display: flex;
-  gap: 10px;
-  margin-top: 3.4rem;
+  gap: 15px;
+  margin-top: 2rem;
 }
 
 .fa {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
-.app-social div {
-  /* background-color: var(--color-primary); */
-  margin-top: 0.4rem;
-  padding: 10px;
+.app-social a {
+  padding: 7px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 30px;
+  width: 30px;
 }
-.fa-cont:hover {
-  background-color: var(--color-primary) !important;
+.fa-cont {
+  /* background-color: red; */
+  border: 2px solid var(--color-primary) !important;
 
   cursor: pointer !important;
+}
+.fa-cont:hover {
+  /* background-color: red; */
+  border: 2px solid var(--color-primary) !important;
+  scale: 1.03;
+  box-shadow: 0 0 20px var(--color-primary);
 }
 .fa-cont:nth-child(2) {
-  color: blue;
+  color: var(--color-primary) !important;
 }
 .fa-cont:nth-child(1) {
-  color: rgb(25, 68, 148);
+  color: var(--color-primary) !important;
 }
 .fa-cont:nth-child(3) {
-  color: rgb(20, 20, 20);
+  color: var(--color-primary) !important;
 }
-.fa-cont:hover {
-  background-color: var(--color-primary) !important;
+.cont-2 {
+  margin-top: 1.4rem;
+  width: 40px !important;
+  height: 40px !important;
+}
 
-  cursor: pointer !important;
-}
 .app-navigation {
   position: absolute;
   bottom: 50%;
