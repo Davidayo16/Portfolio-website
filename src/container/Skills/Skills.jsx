@@ -151,7 +151,7 @@ const Skills = () => {
                       </div>
                     </div>
                     <div className="d-flex gap-3">
-                      <h5 className="dim">2020-20221</h5>
+                      <h5 className="dim">2020-2021</h5>
                       <div>
                         <h4 className="bold dim">Frontend Developer</h4>
                         <p className="dim">ASUSU</p>
