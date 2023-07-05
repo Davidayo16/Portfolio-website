@@ -60,7 +60,7 @@ const Footer = () => {
                       name="subject"
                     />
                   </div>
-                  <div class="mb-3">
+                  <div class="mb-2">
                     <textarea
                       class="form-control"
                       id="exampleFormControlTextarea1"

@@ -15,7 +15,7 @@ const About = () => {
             <div className=" d-flex align-items-center justify-content-center mt-4">
               <div className="row g-4 g align-items-center justify-content center W-100 about-item-cont">
                 <motion.div
-                  className="col-lg-4 col-md-6 col-sm-6px-0"
+                  className="col-lg-4 col-md-6 col-sm-6px-0 aboutt"
                   whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >
@@ -38,7 +38,7 @@ const About = () => {
                   </div>
                 </motion.div>
                 <motion.div
-                  className="col-lg-4 col-md-6 col-sm-12"
+                  className="col-lg-4 col-md-6 col-sm-12 aboutt"
                   whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >
@@ -60,7 +60,7 @@ const About = () => {
                   </div>
                 </motion.div>
                 <motion.div
-                  className="col-lg-4 col-md-6 col-sm-12"
+                  className="col-lg-4 col-md-6 col-sm-12 aboutt"
                   whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >
@@ -83,7 +83,7 @@ const About = () => {
                   </div>
                 </motion.div>
                 <motion.div
-                  className="col-lg-4 col-md-6 col-sm-12 "
+                  className="col-lg-4 col-md-6 col-sm-12 aboutt "
                   whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >

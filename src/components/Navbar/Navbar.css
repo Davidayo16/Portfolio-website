@@ -63,11 +63,11 @@ nav {
   cursor: pointer;
 }
 .btn:hover {
-  scale: 1.2;
-  background-color: rgb(26, 131, 150);
+  scale: 1.1;
+  background-color: var(--color-primary);
 }
 .btn.active:hover {
-  scale: 1.2;
+  /* scale: 1.2; */
   background-color: transparent;
 }
 

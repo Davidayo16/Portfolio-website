@@ -25,9 +25,10 @@
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: 0 !important;
+  box-shadow: 0 0 10px var(--color-primary);
   /* background-color: red; */
   /* background-color: var(--color-white); */
-  border: 2px solid var(--color-primary);
+  /* border: 2px solid var(--color-primary); */
 }
 .about-item-bottom {
   padding: 7px;
@@ -57,14 +58,15 @@
   padding: 1rem;
 }
 
-.a {
-  /* border: 2px solid gray; */
-}
 .bold {
   font-weight: 600;
 }
 @media (max-width: 400px) {
   .about-item-cont {
     width: 100% !important;
+  }
+  .aboutt {
+    /* border: 2px solid gray; */
+    padding: 0 !important;
   }
 }
