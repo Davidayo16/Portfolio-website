@@ -16,15 +16,15 @@ const Work = () => {
       image:
         "https://www.countingcharacters.com/uploads/resize/resize-1690979972632641668fb.png",
       link: "https://facebook-clone-saxt.onrender.com/",
-      tag: ["Next Js", "Typescript"],
+      tag: ["Next Js", "React Js"],
       github: "",
-      description: `Clean and minimalistic single-page website featuring
-                      smooth scrolling.`,
+      description: `Full-fledged chat application. Sleek, minimalist interface.
+       Real-time messaging.`,
     },
     {
       // Fourth item
       id: 1,
-      name: "E-Commerce website",
+      name: "Amazon clone",
       opacity: "opacity",
       direction: "x",
       image: "/images/ec.png",
@@ -84,31 +84,26 @@ const Work = () => {
               My Creative <span>Portfolio</span> Section
             </h1>
             <div className="work-filter d-flex align-items-center flex-wrap gap-4 justify-content-center mt-5 ">
-              {[
-                "All",
-                "React Js",
-                "Javascript",
-                "Node Js",
-                "Next Js",
-                "Typescript",
-              ].map((item, key) => {
-                return (
-                  <div
-                    className="work-filter-item"
-                    style={
-                      active === item
-                        ? {
-                            backgroundColor: "var(--color-primary)",
-                            color: "white",
-                          }
-                        : {}
-                    }
-                    onClick={() => handleFilter(item)}
-                  >
-                    {item}
-                  </div>
-                );
-              })}
+              {["All", "React Js", "Javascript", "Node Js", "Next Js"].map(
+                (item, key) => {
+                  return (
+                    <div
+                      className="work-filter-item"
+                      style={
+                        active === item
+                          ? {
+                              backgroundColor: "var(--color-primary)",
+                              color: "white",
+                            }
+                          : {}
+                      }
+                      onClick={() => handleFilter(item)}
+                    >
+                      {item}
+                    </div>
+                  );
+                }
+              )}
             </div>
             <div className=" d-flex align-items-center justify-content-center mt-5">
               <div className="row g-5 align-items-center justify-content center w-100 about-item-cont">
