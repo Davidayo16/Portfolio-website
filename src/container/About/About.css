@@ -5,12 +5,12 @@
 
   align-items: center;
   /* border: 2px solid red; */
-  border-radius: 15px;
+  /* border-radius: 15px; */
   border: none;
 }
 .about-img-cont img {
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  /* border-top-right-radius: 15px; */
+  /* border-top-left-radius: 15px; */
   width: 100%;
   border: none;
 }
@@ -25,10 +25,32 @@
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
   padding: 0 !important;
-  box-shadow: 0 0 10px var(--color-primary);
+  box-shadow: 0 0 2px var(--color-primary);
+  position: relative;
   /* background-color: red; */
   /* background-color: var(--color-white); */
   /* border: 2px solid var(--color-primary); */
+}
+.about-item::before {
+  content: "";
+  border-left: 3px solid var(--color-primary);
+  border-top: 3px solid var(--color-primary);
+  position: absolute;
+  width: 50%; /* Set the width to cover the entire side */
+  height: 20%; /* Adjust the height to control the thickness of the colored lines */
+  /* background-color: blue; Set the color of the border */
+}
+.about-item::after {
+  content: "";
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  border-right: 3px solid var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  position: absolute;
+  width: 50%; /* Set the width to cover the entire side */
+  height: 20%; /* Adjust the height to control the thickness of the colored lines */
+  /* background-color: blue; Set the color of the border */
 }
 .about-item-bottom {
   padding: 7px;

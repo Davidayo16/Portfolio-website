@@ -8,6 +8,21 @@ const Work = () => {
   const itemss = [
     {
       // Fourth item
+      id: 3,
+      name: "Facebook clone",
+      opacity: "opacity",
+      direction: "x",
+      color: "rgb(25, 154, 177)",
+      image:
+        "https://www.countingcharacters.com/uploads/resize/resize-1690979972632641668fb.png",
+      link: "https://facebook-clone-saxt.onrender.com/",
+      tag: ["Next Js", "Typescript"],
+      github: "",
+      description: `Clean and minimalistic single-page website featuring
+                      smooth scrolling.`,
+    },
+    {
+      // Fourth item
       id: 1,
       name: "E-Commerce website",
       opacity: "opacity",
@@ -21,7 +36,7 @@ const Work = () => {
     },
     {
       // Fourth item
-      id: 1,
+      id: 2,
       name: "Jobs App",
       opacity: "opacity",
       direction: "y",
@@ -32,20 +47,7 @@ const Work = () => {
       github: "",
       description: "Innovative job app revolutionizing the hiring landscape",
     },
-    /*  {
-      // Fourth item
-      id: 3,
-      name: "Facebook clone(static)",
-      opacity: "opacity",
-      direction: "x",
-      color: "rgb(25, 154, 177)",
-      image: "/images/fbc.png",
-      link: "https://facebook-clone-saxt.onrender.com/",
-      tag: ["React Js"],
-      github: "",
-      description: `Clean and minimalistic single-page website featuring
-                      smooth scrolling.`,
-    },*/
+
     {
       // Fourth item
       id: 4,
@@ -82,7 +84,14 @@ const Work = () => {
               My Creative <span>Portfolio</span> Section
             </h1>
             <div className="work-filter d-flex align-items-center flex-wrap gap-4 justify-content-center mt-5 ">
-              {["All", "React Js", "Javascript", "Node Js"].map((item, key) => {
+              {[
+                "All",
+                "React Js",
+                "Javascript",
+                "Node Js",
+                "Next Js",
+                "Typescript",
+              ].map((item, key) => {
                 return (
                   <div
                     className="work-filter-item"
