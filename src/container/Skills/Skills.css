@@ -1,6 +1,7 @@
 .skils-wrapper {
   background-color: var(--color-background2);
   min-height: 90vh;
+  width: 100%;
 }
 .skills-img-cont {
   width: 100%;

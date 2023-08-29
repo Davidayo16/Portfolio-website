@@ -33,6 +33,7 @@ body {
   margin: 0;
   width: var(--doc-width);
   height: var(--doc-height);
+  max-width: 100%;
   font-size: 0.85rem;
   background: var(--color-background);
   transition: 0.5s ease;

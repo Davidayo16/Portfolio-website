@@ -1,6 +1,7 @@
 .portfolio-wrapper {
   background-color: var(--color-background);
   min-height: 90vh;
+  width: 100%;
 }
 .work-filter-item {
   background-color: rgb(255, 255, 255);

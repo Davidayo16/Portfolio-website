@@ -110,7 +110,7 @@ const Work = () => {
                   const b = item.direction;
                   const animationProperties = {
                     opacity: [0, 1],
-                    x: [-100, 0],
+                    y: [100, 0],
                   };
                   return (
                     <motion.div

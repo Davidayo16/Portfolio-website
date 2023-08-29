@@ -16,7 +16,7 @@ const About = () => {
               <div className="row g-4 g align-items-center justify-content center W-100 about-item-cont">
                 <motion.div
                   className="col-lg-4 col-md-6 col-sm-6px-0 aboutt"
-                  whileInView={{ opacity: [0, 1], y: [100, 0] }}
+                  whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >
                   <div className=" about-item ">
@@ -39,7 +39,7 @@ const About = () => {
                 </motion.div>
                 <motion.div
                   className="col-lg-4 col-md-6 col-sm-12 aboutt"
-                  whileInView={{ opacity: [0, 1], y: [100, 0] }}
+                  whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >
                   <div className="about-item">
@@ -61,7 +61,7 @@ const About = () => {
                 </motion.div>
                 <motion.div
                   className="col-lg-4 col-md-6 col-sm-12 aboutt"
-                  whileInView={{ opacity: [0, 1], y: [100, 0] }}
+                  whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >
                   <div className="about-item">
@@ -84,7 +84,7 @@ const About = () => {
                 </motion.div>
                 <motion.div
                   className="col-lg-4 col-md-6 col-sm-12 aboutt "
-                  whileInView={{ opacity: [0, 1], y: [100, 0] }}
+                  whileInView={{ opacity: [0, 1] }}
                   transition={{ duration: 0.7, type: "tween", ease: easeInOut }}
                 >
                   <div className="about-item">

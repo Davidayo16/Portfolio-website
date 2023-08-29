@@ -2,6 +2,7 @@
   min-height: 95vh;
   background-color: var(--color-background);
   /* margin-top: 2rem; */
+  width: 100%;
 }
 .contact-icon {
   background-color: rgb(199, 160, 183);
