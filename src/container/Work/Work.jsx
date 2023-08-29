@@ -9,12 +9,11 @@ const Work = () => {
     {
       // Fourth item
       id: 3,
-      name: "Facebook clone",
+      name: "Social Media Web App",
       opacity: "opacity",
       direction: "x",
       color: "rgb(25, 154, 177)",
-      image:
-        "https://www.countingcharacters.com/uploads/resize/resize-1690979972632641668fb.png",
+      image: "/images/fv.png",
       link: "https://facebook-clone-saxt.onrender.com/",
       tag: ["Next Js", "React Js"],
       github: "",
@@ -24,7 +23,7 @@ const Work = () => {
     {
       // Fourth item
       id: 1,
-      name: "Amazon clone",
+      name: "VivaMarket (E-commerce Platform)",
       opacity: "opacity",
       direction: "x",
       image: "/images/ec.png",
@@ -37,7 +36,7 @@ const Work = () => {
     {
       // Fourth item
       id: 2,
-      name: "Jobs App",
+      name: "JobQuest",
       opacity: "opacity",
       direction: "y",
       color: "rgb(25, 154, 177)",
@@ -111,7 +110,7 @@ const Work = () => {
                   const b = item.direction;
                   const animationProperties = {
                     opacity: [0, 1],
-                    y: [100, 0],
+                    x: [-100, 0],
                   };
                   return (
                     <motion.div

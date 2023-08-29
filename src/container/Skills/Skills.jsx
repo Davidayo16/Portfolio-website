@@ -85,16 +85,6 @@ const Skills = () => {
     },
     {
       id: 14,
-      name: "Dart",
-      image: "/images/dart.svg",
-    },
-    {
-      id: 14,
-      name: "Flutter",
-      image: "/images/flutter.svg",
-    },
-    {
-      id: 14,
       name: "AWS",
       image: "/images/aws.svg",
     },

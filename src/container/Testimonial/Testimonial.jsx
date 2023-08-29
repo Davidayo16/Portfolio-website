@@ -78,8 +78,8 @@ const Testimonial = () => {
               </h1>
             </div>
             <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.9, ease: easeInOut }}
+              whileInView={{ opacity: [0, 1], x: [100, 0] }}
+              transition={{ duration: 0.8, ease: easeInOut }}
               className="d-flex justify-content-center align-items-center"
             >
               <div className="w-100 test-container p-3">

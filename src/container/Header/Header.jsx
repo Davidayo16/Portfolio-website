@@ -53,7 +53,7 @@ const Header = () => {
   const [background, setBackground] = React.useState(
     localStorage.getItem("background")
       ? JSON.parse(localStorage.getItem("background"))
-      : "rgb(26, 131, 150)"
+      : "rgb(233, 147, 67)"
   );
   const [theme, setTheme] = React.useState(
     localStorage.getItem("themee")
