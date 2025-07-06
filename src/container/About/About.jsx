@@ -66,13 +66,20 @@ const About = () => {
                 color: "var(--color-dark)",
                 fontWeight: 700,
                 fontFamily: "Poppins, sans-serif",
-                fontSize: "2.2rem",
+                fontSize: "clamp(1.8rem, 5vw, 2.2rem)",
                 lineHeight: "1.3",
               }}
             >
-              Having a <span style={{ color: "var(--color-primary)" }}>Strong Development </span> Process <br /> is
-              Essential for
-              <span style={{ color: "var(--color-primary)" }}> Achieving Success</span> in Business.
+              Having a{" "}
+              <span style={{ color: "var(--color-primary)" }}>
+                Strong Development{" "}
+              </span>{" "}
+              Process <br /> is Essential for
+              <span style={{ color: "var(--color-primary)" }}>
+                {" "}
+                Achieving Success
+              </span>{" "}
+              in Business.
             </motion.h1>
 
             {/* Cards Grid */}
@@ -95,7 +102,7 @@ const About = () => {
                     <div
                       className="position-relative w-100"
                       style={{
-                        height: "480px",
+                        minHeight: "400px",
                         perspective: "1200px",
                       }}
                     >
@@ -122,7 +129,7 @@ const About = () => {
                             backfaceVisibility: "hidden",
                             border: "1px solid rgba(255, 255, 255, 0.3)",
                             borderRadius: "28px",
-                            padding: "48px",
+                            padding: "clamp(24px, 5vw, 32px)",
                             background: `
                               linear-gradient(145deg, var(--color-background2), var(--color-background)),
                               linear-gradient(45deg, rgba(26, 131, 150, 0.25) 0%, rgba(0, 229, 255, 0.25) 100%)
@@ -133,8 +140,7 @@ const About = () => {
                               inset 0 0 12px rgba(255, 255, 255, 0.15)
                             `,
                             color: "var(--color-dark)",
-                            overflow: "hidden",
-                            position: "relative",
+                            overflowY: "auto",
                             fontFamily: "Poppins, sans-serif",
                             transition: "all 0.3s ease",
                           }}
@@ -157,13 +163,13 @@ const About = () => {
                           />
 
                           {/* Icon */}
-                          <div className="text-center mb-5">
+                          <div className="text-center mb-4">
                             <motion.div
                               className="d-inline-flex align-items-center justify-content-center fa-cont"
                               style={{
-                                width: "130px",
-                                height: "130px",
-                                fontSize: "4rem",
+                                width: "clamp(100px, 20vw, 120px)",
+                                height: "clamp(100px, 20vw, 120px)",
+                                fontSize: "clamp(2.5rem, 8vw, 3.5rem)",
                                 background: `
                                   linear-gradient(45deg, var(--color-primary), rgba(0, 229, 255, 0.5))
                                 `,
@@ -190,23 +196,23 @@ const About = () => {
                           {/* Content */}
                           <div className="about-item-bottom flex-grow-1 d-flex flex-column">
                             <h6
-                              className="mt-4 bold fs-4 text-center"
+                              className="mt-3 bold fs-4 text-center"
                               style={{
                                 color: "var(--color-dark)",
                                 textShadow: "0 2px 5px rgba(0, 0, 0, 0.25)",
                                 fontWeight: 700,
-                                fontSize: "1.5rem",
+                                fontSize: "clamp(1.2rem, 4vw, 1.4rem)",
                               }}
                             >
                               {service.title}
                             </h6>
 
                             <p
-                              className="mt-4 text-center flex-grow-1 d-flex align-items-center"
+                              className="mt-3 text-center flex-grow-1 d-flex align-items-center"
                               style={{
                                 color: "var(--color-dim)",
-                                fontSize: "1.15rem",
-                                lineHeight: "1.7",
+                                fontSize: "clamp(0.95rem, 3vw, 1.1rem)",
+                                lineHeight: "1.6",
                                 fontWeight: 400,
                               }}
                             >
@@ -231,7 +237,7 @@ const About = () => {
                                   color: "var(--color-dim)",
                                   fontStyle: "italic",
                                   fontWeight: 500,
-                                  fontSize: "0.95rem",
+                                  fontSize: "clamp(0.85rem, 2.5vw, 0.9rem)",
                                 }}
                               >
                                 Click to explore more 👆
@@ -248,7 +254,7 @@ const About = () => {
                             transform: "rotateY(180deg)",
                             border: "1px solid rgba(255, 255, 255, 0.3)",
                             borderRadius: "28px",
-                            padding: "48px",
+                            padding: "clamp(24px, 5vw, 32px)",
                             background: `
                               linear-gradient(145deg, var(--color-background2), var(--color-background)),
                               linear-gradient(45deg, rgba(255, 100, 108, 0.25) 0%, rgba(255, 0, 229, 0.25) 100%)
@@ -259,8 +265,7 @@ const About = () => {
                               inset 0 0 12px rgba(255, 255, 255, 0.15)
                             `,
                             color: "var(--color-dark)",
-                            overflow: "hidden",
-                            position: "relative",
+                            overflowY: "auto",
                             fontFamily: "Poppins, sans-serif",
                             transition: "all 0.3s ease",
                           }}
@@ -283,13 +288,13 @@ const About = () => {
                           />
 
                           {/* Header */}
-                          <div className="text-center mb-5">
+                          <div className="text-center mb-4">
                             <motion.div
-                              className="d-inline-flex align-items-center justify-content-center mb-4 fa-cont"
+                              className="d-inline-flex align-items-center justify-content-center mb-3 fa-cont"
                               style={{
-                                width: "100px",
-                                height: "100px",
-                                fontSize: "2.8rem",
+                                width: "clamp(80px, 15vw, 90px)",
+                                height: "clamp(80px, 15vw, 90px)",
+                                fontSize: "clamp(2rem, 6vw, 2.5rem)",
                                 background: `
                                   linear-gradient(45deg, var(--color-primary), rgba(255, 0, 229, 0.5))
                                 `,
@@ -315,7 +320,7 @@ const About = () => {
                                 color: "var(--color-dark)",
                                 textShadow: "0 2px 5px rgba(0, 0, 0, 0.25)",
                                 fontWeight: 700,
-                                fontSize: "1.5rem",
+                                fontSize: "clamp(1.2rem, 4vw, 1.4rem)",
                               }}
                             >
                               {service.title}
@@ -328,8 +333,8 @@ const About = () => {
                               className="lh-base flex-grow-1 d-flex align-items-center"
                               style={{
                                 color: "var(--color-dim)",
-                                fontSize: "1.15rem",
-                                lineHeight: "1.7",
+                                fontSize: "clamp(0.95rem, 3vw, 1.1rem)",
+                                lineHeight: "1.6",
                                 fontWeight: 400,
                               }}
                             >
@@ -347,7 +352,7 @@ const About = () => {
                                   color: "var(--color-dim)",
                                   fontStyle: "italic",
                                   fontWeight: 500,
-                                  fontSize: "0.95rem",
+                                  fontSize: "clamp(0.85rem, 2.5vw, 0.9rem)",
                                 }}
                               >
                                 Click to go back 👆
