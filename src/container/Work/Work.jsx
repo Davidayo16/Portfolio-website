@@ -8,6 +8,32 @@ const Work = () => {
   const itemss = [
     {
       // Fourth item
+      id: 7,
+      name: "DeFi Token Presale",
+      opacity: "opacity",
+      direction: "x",
+      color: "rgb(25, 154, 177)",
+      image: "/images/hpt.png",
+      link: "https://presale-d-app-gtal.vercel.app/",
+      tag: ["Solidity", "Javascript", "Node Js", "React Js"],
+      github: "",
+      description: `Decentralized finance (Defi) token presale platform`,
+    },
+    {
+      // Fourth item
+      id: 6,
+      name: "Daycare Management System",
+      opacity: "opacity",
+      direction: "x",
+      color: "rgb(25, 154, 177)",
+      image: "/images/daycare.png",
+      link: "https://daycare-app.onrender.com/",
+      tag: ["React Js", "Javascript", "Node Js"],
+      github: "",
+      description: `Comprehensive daycare management system. Sreamlined operations`,
+    },
+    {
+      // Fourth item
       id: 3,
       name: "Social Media Web App",
       opacity: "opacity",
@@ -83,7 +109,7 @@ const Work = () => {
               My Creative <span>Portfolio</span> Section
             </h1>
             <div className="work-filter d-flex align-items-center flex-wrap gap-4 justify-content-center mt-5 ">
-              {["All", "React Js", "Javascript", "Node Js", "Next Js"].map(
+              {["All", "React Js", "Javascript", "Node Js", "Next Js", "Solidity"].map(
                 (item, key) => {
                   return (
                     <div
