@@ -57,7 +57,7 @@ const Navbar = ({ activeSection, sections }) => {
             className="d-flex justify-content-between align-items-center p-md-3 p-2"
             ref={listNav}
           >
-            <div className="nav-bar">
+            <div className="nav-bar px-3">
               <h2 className="nav-logo bold mb-0">
                 Dav<span style={{ color: "var(--color-primary)" }}>X</span>
               </h2>
@@ -68,7 +68,7 @@ const Navbar = ({ activeSection, sections }) => {
               </button>
             </div>
             <div class="list-container mb-0" ref={listContainer}>
-              <ul class="list d-flex px-0" ref={list}>
+              <ul class="list d-flex px-3" ref={list}>
                 {sections.map((section) => (
                   <div>
                     <li key={section.id}>
